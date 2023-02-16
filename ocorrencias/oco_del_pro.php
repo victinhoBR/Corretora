@@ -31,7 +31,7 @@ include_once("../conexao.php")
     unset($_SESSION['msg']);
   }
 
-  $codigo = filter_input(INPUT_POST, 'codigo', FILTER_SANITIZE_NUMBER_INT);
+  $codigo = filter_input(INPUT_POST, 'NR', FILTER_SANITIZE_NUMBER_INT);
   $result_cliente = "DELETE FROM e3_ocorrencias WHERE NR=$codigo";
   $resultado = mysqli_query($conn, $result_cliente);
 
