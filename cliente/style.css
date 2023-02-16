@@ -21,17 +21,17 @@ body {
     box-shadow: inset 5px 5px 10px #141414,
         inset -5px -5px 10px #525252;
 }
-
 .cabecalho .titulo {
     font-size: 20px;
     margin: 0;
 }
-
+.alinha{
+    height: 25vh;
+    width: 100vw;
+}
 /* formulários  */
 .form-container {
-    margin-top: 20vh;
     width: 50%;
-    margin-top: 25vh;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
