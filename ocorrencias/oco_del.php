@@ -15,7 +15,7 @@ include_once("../conexao.php")
 </head>
 
 <center>
-  <header class="cabecalho">
+<header class="cabecalho">
     <h1 class="titulo">CORRETORA - SENAC PARA TODOS</h1>
     <br>
     <h2 class="titulo">ACIDENTES NAO ACONTECEM POR ACASO, MAIS POR DESCASO</h2>
