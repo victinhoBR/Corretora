@@ -11,7 +11,7 @@ include_once("../conexao.php")
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- css -->
 	
-	<link rel="stylesheet" href="style_debug.css">
+	<link rel="stylesheet" href="style.css">
 
 	<title>CORRETORA - SENAC: ATUALIZA</title>
 </head>
@@ -26,6 +26,7 @@ include_once("../conexao.php")
 		<br>
 		<hr><br>
 	</header>
+	<div class="alinha"></div>
 	<hr><br>
 	<div class="form-container">
     <form method="POST" name="consulta_cliente" action="cli_alt_cons2.php">
@@ -34,7 +35,7 @@ include_once("../conexao.php")
       <input type="submit" name="enviar" value="Consultar">
     </form>
   </div>
-	<hr>
+	
 
 	<br><br><br><br>
     <a href="cliente.html">
@@ -42,9 +43,8 @@ include_once("../conexao.php")
 				
     </a>
 	<br><br><br><br><br>
-	<br><br><br><br><br>
-	<br><br><br><br><br>
-	<br><br><br><br><br>
+	<br><br><br>
+	
 	<footer>
 		<p style="color:#808080;">
 			&copy;copyright

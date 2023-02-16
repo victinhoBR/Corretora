@@ -14,7 +14,7 @@ include_once("../conexao.php")
 
 	<title>CORRETORA - SENAC: CONSULTA</title>
 </head>
-
+<div class="alinha"></div>
 <CENTER>
 	<header class="cabecalho">
 		<h1 class="titulo">CORRETORA - SENAC PARA TODOS</h1>
@@ -33,8 +33,6 @@ include_once("../conexao.php")
 			<input type="submit" name="consultar" value="consultar">
 		</form>
 		<br><br><br>
-	</div>
-	<div class="form-container">
 		<form method="POST" action="oco_le_consx.php">
 			<label>PESQUISAR TODOS OS REGISTROS</label>
 			<br>
@@ -44,11 +42,9 @@ include_once("../conexao.php")
 	<br><br><br>
 	<a href="ocorrencias.html">
 		<img class="img-voltar" src="../img/retornar.png" width="20" height="20"></a>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+	<br><br>
 	<footer>
-		<p style="color:#808080;">
-			&copy;copyright
+	<p style="color:#808080;">&copy; Copyright - SENAC - Curso Técnico em Informática Prof° Valdemir e alunos Victor, Caleb e Mateus
 			<script>
 				var year = new Date();
 				document.writeln(+year.getUTCFullYear());

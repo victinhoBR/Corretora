@@ -24,6 +24,7 @@ include_once("../conexao.php")
     <br>
     <hr><br>
   </header>
+  <div class="alinha"></div>
   <hr><br>
   <?php
   if (isset($_SESSION['msg'])) {
@@ -34,7 +35,7 @@ include_once("../conexao.php")
   <div class="form-container">
     <form action="oco_del_pro.php" method="post">
       <label>Codigo NR:</label>
-      <input type="number" name="codigo" required placeholder="Digite o NR da ocorrência que deseja excluir">
+      <input type="number" name="NR" required placeholder="Digite o NR da ocorrência que deseja excluir">
       <input type="submit" name="DELETAR" value="DELETAR">
 
     </form>
@@ -48,8 +49,7 @@ include_once("../conexao.php")
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
   <footer>
-    <p style="color:#808080;">
-      &copy;copyright
+  <p style="color:#808080;">&copy; Copyright - SENAC - Curso Técnico em Informática Prof° Valdemir e alunos Victor, Caleb e Mateus
       <script>
         var year = new Date();
         document.writeln(+year.getUTCFullYear());

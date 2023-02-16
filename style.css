@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  scale: 1.1;
+  overflow-x: hidden;
+  background-image: url(img/fundo.png);
+}
+h3 {
+  width: 80vw;
+  margin: 2vw;
+  padding: 2vw;
+  font-size: 35px;
+  color: rgb(26, 0, 51);
+  border-radius: 0px;
+  box-shadow:  5px 5px 10px #5a5a5a,
+               -5px -5px 10px #ffffff;
+}
+
+button {
+  width: 100px;
+  border-radius: 0px;
+  background: #000000;
+  box-shadow:  5px 5px 10px #5a5a5a,
+               -5px -5px 10px #ffffff;
+}
+
+footer{
+  bottom: 0;
+}
+img{
+  box-shadow:  5px 5px 10px #5a5a5a,
+               -5px -5px 10px #ffffff;
+}
+.corpo-index{
+  width: 60vw;
+  height: 45vh;
+  align-items: center;
+  padding: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: 0px;
+  box-shadow:  5px 5px 10px #5a5a5a,
+               -5px -5px 10px #ffffff;
+}
+
+.corpo-index button{
+  margin-left:2vw ;
+}

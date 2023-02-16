@@ -10,7 +10,7 @@ include_once("../conexao.php")
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
-    <link rel="stylesheet" href="style_debug.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>CORRETORA - SENAC: CONSULTA1</title>
 </head>
@@ -25,6 +25,9 @@ include_once("../conexao.php")
         <br>
         <hr><br>
     </header>
+
+    <div class="alinha"></div>
+
     <div class="form-container">
         <form method="POST" action="cli_cons2.php">
             <label>CODIGO</label>
@@ -33,8 +36,7 @@ include_once("../conexao.php")
             <input type="submit" name="consultar">
         </form>
         <br><br><br>
-    </div>
-    <div class="form-container">
+
         <form method="POST" action="cli_consx.php">
             <label>PESQUISAR TODOS OS REGISTROS</label>
             <br>
@@ -44,8 +46,7 @@ include_once("../conexao.php")
     <br><br><br>
     <a href="cliente.html">
         <img class="img-voltar" src="../img/retornar.png" width="20" height="20"></a>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+    <br><br><br><br><br><br>
     <footer>
         <p style="color:#808080;">
             &copy;copyright

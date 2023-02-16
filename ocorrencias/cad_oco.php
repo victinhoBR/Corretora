@@ -8,6 +8,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_debug.css">
     <title>Corretora senac - Ocorrencia</title>
 </head>
 
@@ -22,6 +23,7 @@ session_start();
             <h2 class="titulo" align="center">Cadastrar Ocorrencias</h2>
             <hr>
         </header>
+        <div class="alinha"></div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
         <?php
@@ -58,34 +60,10 @@ session_start();
         <br>
         <br>
         <br>
-        <a href="../cliente/cliente.html"><img src="../img/retornar.png" title="Retornar" width="35" height="35"><img></a>
-        <br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br><br>
-        <br>
-        <br>
-        <br>
+        <a href="ocorrencias.html"><img src="../img/retornar.png" title="Retornar" width="35" height="35"><img></a>
+      
         <footer>
-            <p style="color: #f35d8b;">&copy; Copyright - SENAC - Curso Técnico em Informática Prof° Valdemir e alunos Victor, Caleb e Mateus
-                <script>
+            <p style="color:#808080;">&copy; Copyright - SENAC - Curso Técnico em Informática Prof° Valdemir e alunos Victor, Caleb e Mateus   <script>
                     var year = new Date();
                     document.writeln(+year.getUTCFullYear());
                 </script>

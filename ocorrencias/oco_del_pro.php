@@ -13,7 +13,7 @@ include_once("../conexao.php")
 
   <link rel="stylesheet" href="style_debug.css">
 </head>
-
+<div class="alinha"></div>
 <center>
   <header class="cabecalho">
     <h1 class="titulo">CORRETORA - SENAC PARA TODOS</h1>
@@ -25,6 +25,7 @@ include_once("../conexao.php")
     <hr><br>
   </header>
   <hr><br>
+  <div class="form-container">
   <?php
   if (isset($_SESSION['msg'])) {
     echo $_SESSION['msg'];
@@ -41,7 +42,7 @@ include_once("../conexao.php")
     echo "<h2><font>ocorrência nao existe</font></h2>";
   }
   ?>
-
+  </div>
 
   </script>
   </div>
@@ -52,8 +53,7 @@ include_once("../conexao.php")
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
   <footer>
-    <p style="color:#808080;">
-      &copy;copyright
+  <p style="color:#808080;">&copy; Copyright - SENAC - Curso Técnico em Informática Prof° Valdemir e alunos Victor, Caleb e Mateus
       <script>
         var year = new Date();
         document.writeln(+year.getUTCFullYear());

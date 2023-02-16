@@ -24,9 +24,9 @@ include_once("../conexao.php")
         <br>
         <hr><br>
     </header>
-
+    <div class="alinha"></div>
     <div class="informacao" style="text-align: left;">
-    </script>
+    <div class="form-container">
     <hr>
     <?php
     $nr = filter_input(INPUT_POST,'NR',FILTER_SANITIZE_NUMBER_INT);
@@ -38,22 +38,20 @@ include_once("../conexao.php")
         echo "NR.........." . $row_ocorrencia['NR'] . "<br>";
         echo "data........" . $row_ocorrencia['data_'] . "<br>";
         echo "descricao..." . $row_ocorrencia['descricao'] . "<br>";
-        echo "local_......" . $row_ocorrencia['local_'] . "<br><BR>";
+        echo "local_......" . $row_ocorrencia['local_'] . "<br><hr>";
     }else{
         echo"ocorrencia não cadastrado!";
     }
     ?>
-
+    </div>
     </div>
     <br><br><br><br><br><br><br><br><br>
 <a href="oco_le_cons1.php">
 <img class="img-voltar" src="../img/retornar.png" width="20" height="20"></a>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+<br><br><br><br><br><br>
     <footer>
-        <p style="color:#808080;">
-            &copy;copyright
+    <p style="color:#808080;">&copy; Copyright - SENAC - Curso Técnico em Informática Prof° Valdemir e alunos Victor, Caleb e Mateus
             <script>
                 var year = new Date();
                 document.writeln(+year.getUTCFullYear());

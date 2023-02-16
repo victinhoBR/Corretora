@@ -9,10 +9,9 @@ include_once("../conexao.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CORRETORA SENAC - AtualizarOcorrencia</title>
+    <title>CORRETORA SENAC - Atualizar Ocorrencia</title>
 
-    <link rel="stylesheet" type="text/css" href="">
-    <link href="" rel="stylesheet">
+    <link rel="stylesheet" href="style_debug.css">
 
 
 </head>
@@ -24,6 +23,7 @@ include_once("../conexao.php");
         <br>
         <h2 class="titulo" align="center">ATUALIZAR OCORRENCIAS</h2>
 </header>
+<div class="alinha"></div>
 <br>
 <br>
 
@@ -34,24 +34,24 @@ include_once("../conexao.php");
  $descricao=$_POST['descricao'];
  
 
- $result_ocorrencias = "UPDATE e3_ocorrencias SET nr='$nr', data='$data', local='$local', descricao='$descricao' 
-                            WHERE nr='$nr'";
+ $result_ocorrencias = "UPDATE e3_ocorrencias SET nr='$nr', data_='$data', local_='$local', descricao='$descricao' WHERE nr='$nr'";
 
  $resultado_ocorrencias = mysqli_query($conn, $result_ocorrencias);
  echo "<h2> <font color='green'> Atualizado com sucesso!</font></h2>";
 
  ?>
 
-
+<div class="form-container">
  <form method="POST" action="oco_alt_cons.php" >
     <label>Fazer nova alteração: </label>
     <input type="submit" name="voltar" value="voltar">
 </form>
+</div>
 <hr>
 <br>
 <br>
 <br>
-<a href="ocorrencias.html"> <img src="../imagens/MicrosoftTeams-image (3).png" width="30" height="30"></a>
+<a href="ocorrencias.html"> <img src="../img/retornar.png" width="30" height="30"></a>
 <br>
 <br>
 <br>

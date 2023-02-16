@@ -11,10 +11,9 @@ include_once("../conexao.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CORRETORA SENAC - atualizar_ocorrencia</title>
 
-    <link rel="stylesheet" type="text/css" href="">
-    <link href="" rel="stylesheet">
+    <link rel="stylesheet" href="style_debug.css">
 </head>
-
+<div class="alinha"></div>
 <center>
 <header class="cabecalho">
         <h1 class="titulo">CORRETORA - SENAC PARA TODOS</h1>
@@ -37,7 +36,7 @@ include_once("../conexao.php");
 <br>
 <hr>
 
-<a href="ocorrencias.html"> <img src="../imagens/MicrosoftTeams-image (3).png" width="50" height="50"></a>
+<a href="ocorrencias.html"> <img src="../img/retornar.png" width="50" height="50"></a>
 <br>
         <br>
         <br>

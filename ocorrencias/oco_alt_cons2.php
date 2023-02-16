@@ -9,7 +9,8 @@ include_once("../conexao.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CORRETORA SENAC - atualizar_ocorrencia</title>
+    <link rel="stylesheet" href="style_debug.css">
+    <title>CORRETORA SENAC - atualizar ocorrência</title>
 
 
  <link rel="stylesheet" type="text/css" href="">
@@ -25,6 +26,7 @@ include_once("../conexao.php");
         <br>
         <h2 class="titulo" align="center">ATUALIZAR OCORRENCIAS</h2>
 </header>
+<div class="alinha"></div>
 <br>
 <br>
 
@@ -34,7 +36,7 @@ $result_ocorrencias= "SELECT nr, data_, local_, descricao FROM e3_ocorrencias WH
 $resultado_ocorrencias= mysqli_query($conn, $result_ocorrencias);
 $row_ocorrencias;
 ?>
-
+<div class="form-container">
 <form  method="POST" action="oco_alt_atualiza.php" name="alterar_cliente">
     <?php
         if($row_ocorrencias = mysqli_fetch_assoc($resultado_ocorrencias)){
@@ -44,7 +46,7 @@ $row_ocorrencias;
 
             echo "<label>NR...............: </label><input type='number' name='nr' placeholder='".$row_ocorrencias['nr']."'><br><br>";
             
-            echo "<label>DATA.............: </label><input type='data' name='data' placeholder='".$row_ocorrencias['data_']."'><br><br>";
+            echo "<label>DATA.............: </label><input type='date' name='data' placeholder='".$row_ocorrencias['data_']."'><br><br>";
 
             echo "<label>LOCAL............: </label><input type='text' name='local' placeholder='".$row_ocorrencias['local_']."'><br><br>";
 
@@ -59,11 +61,12 @@ $row_ocorrencias;
 
     ?>
 </form>
+</div>
 <br>
 <br>
 <br>
 
-<a href="../cli_alt_atualiza.php"> <img src="../imagens/MicrosoftTeams-image (3).png" width="50" height="50"></a>
+<a href="oco_alt_cons.php"> <img src="../img/retornar.png" width="50" height="50"></a>
 <br>
         <br>
         <br>

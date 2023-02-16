@@ -9,7 +9,7 @@ session_start();
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="stylesheet" href="style_debug.css">
+	<link rel="stylesheet" href="style.css">
 	<title>corretora Senac</title>
 
 </head>
@@ -23,6 +23,9 @@ session_start();
 		<h2>Acidentes não acontecem por acaso, mas por descaso</h2>
 		<h1>Inclusão de clientes</h1>
 	</header>
+
+	<div class="alinha"></div>
+
 	<br>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
@@ -71,8 +74,7 @@ session_start();
 	<a href="cliente.html">
 		<img class="img-voltar" src="../img/retornar.png" width="20" height="20">
 	</a>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+	<br><br><br><br><br>
 	<footer>
 		<p style="color:#808080;">
 			&copy;copyright
