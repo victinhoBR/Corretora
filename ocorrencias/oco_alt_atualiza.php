@@ -11,7 +11,11 @@ include_once("../conexao.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CORRETORA SENAC - Atualizar Ocorrencia</title>
 
+<<<<<<< HEAD
     <link rel="stylesheet" href="../css/style_debug.css">
+=======
+    <link rel="stylesheet" href="style_debug.css">
+>>>>>>> bff586f5b89faa8011c651ab2f81fc00e0f1ca32
 
 
 </head>

@@ -8,9 +8,13 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
 <!-- css -->
     <link rel="stylesheet" href="../css/style_debug.css">
     
+=======
+    <link rel="stylesheet" href="style_debug.css">
+>>>>>>> bff586f5b89faa8011c651ab2f81fc00e0f1ca32
     <title>Corretora senac - Ocorrencia</title>
 
 </head>
