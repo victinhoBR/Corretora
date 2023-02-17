@@ -1,25 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+    overflow-x: hidden;
 }
 
 /* header */
 .cabecalho {
-    background-color: #333;
+    width: 100vw;
+    height: 16vh;
+    position: fixed;
+    top: 0;
     color: #fff;
     padding: 20px;
     text-align: center;
+    background: #333333;
+    box-shadow: inset 5px 5px 10px #141414,
+        inset -5px -5px 10px #525252;
 }
-
 .cabecalho .titulo {
-    font-size: 32px;
+    font-size: 20px;
     margin: 0;
 }
-
+.alinha{
+    height: 25vh;
+    width: 100vw;
+}
 /* formulários  */
 .form-container {
     width: 50%;
-    margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -44,7 +56,7 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-    border-radius:200px 200px;
+    border-radius: 200px 200px;
     background-color: #333;
     color: #fff;
     cursor: pointer;
@@ -56,7 +68,7 @@ input[type="submit"]:hover {
 }
 
 /* img */
-.img-voltar{
+.img-voltar {
     width: 4vw;
     height: auto;
     transition: 0.5s;

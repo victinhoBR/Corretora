@@ -11,7 +11,7 @@ include_once("../conexao.php")
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- css -->
 	
-	<link rel="stylesheet" href="style_debug.css">
+		<link rel="stylesheet" href="../css/style.css">
 
 	<title>CORRETORA - SENAC: ATUALIZA</title>
 </head>
@@ -26,6 +26,7 @@ include_once("../conexao.php")
 		<br>
 		<hr><br>
 	</header>
+	<div class="alinha"></div>
 	<hr><br>
 	<?php
 
