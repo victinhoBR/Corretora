@@ -2,33 +2,31 @@
   margin: 0;
   padding: 0;
 }
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+body{
   overflow-x: hidden;
 }
-
-/* header */
-.cabecalho {
-  width: 100vw;
-  height: 16vh;
-  position: fixed;
-  top: 0;
+body{
+  background-size: 120%;
+  background-position: center;
+  background-image: url(../img/background-modern-blue.png);
+}
+h1{
   color: #fff;
-  padding: 20px;
-  text-align: center;
-  background: #333333;
-  box-shadow: inset 5px 5px 10px #141414,
-      inset -5px -5px 10px #525252;
+  margin-top: 5vw;
 }
-.cabecalho .titulo {
-  font-size: 20px;
-  margin: 0;
+.navbarra{
+  background-color: #000;
+  height: 5vw;
+  width: 100vw;
+  position: fixed;
+  margin-top: 0vw;
 }
+
 .alinha{
-  height: 25vh;
+  height: 10vh;
   width: 100vw;
 }
+
 /* formulários  */
 .form-container {
   width: 50%;
@@ -67,29 +65,27 @@ input[type="submit"]:hover {
   background-color: #ccc;
   color: #333;
 }
-
-/* img */
-.img-voltar {
-  width: 4vw;
-  height: auto;
-  transition: 0.5s;
+.volta{
+  width: 10vw;
+  margin-bottom: 5vw;
+  background-color: #ff848460
 }
 
-
-/* cli_cons2 informações de consulta  */
-
-.informacao {
+footer {
+  width: 100vw;
+  margin-top: 5vw;
+  color: #fff;
   padding: 20px;
-  background-color: #f2f2f2;
-  border: 1px solid #333;
-  margin: 20px 0;
+  text-align: center;
+  background: #333333;
+  box-shadow: inset 5px 5px 10px #141414,
+      inset -5px -5px 10px #525252;
 }
 
-.informacao hr {
-  border-top: 1px solid #333;
-}
-
-.informacao p {
-  font-size: 18px;
-  margin: 10px 0;
+/* consultar */
+.informacao{
+  margin-left: 25vw;
+  text-align: left;
+  font-size: 25px;
+  width: 100vw;
 }
