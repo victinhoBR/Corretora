@@ -60,7 +60,7 @@ session_start();
 			<br><br>
 
 			<label for="">rg:</label>
-			<input type="text" name="rg" maxlength="10" require autofocus placeholder="Digite seu rg">
+			<input type="text" name="rg" maxlength="7" require autofocus placeholder="Digite seu rg">
 			<br><br>
 
 			<label for="">cpf:</label>
@@ -68,7 +68,7 @@ session_start();
 			<br><br>
 
 			<label for="">Telefone:</label>
-			<input type="text" name="tel" maxlength="12" require autofocus placeholder="(99)99999-9999">
+			<input type="text" name="tel" maxlength="11" id="tel" require autofocus placeholder="(99)99999-9999">
 			<br><br>
 
 			<input type="submit" value="CADASTRA">
@@ -107,6 +107,7 @@ session_start();
 		$("#tel").mask("(99)99999-9999");
 	})
 </script>
+
 <script>
 	function TestaCPF(strCPF) {
 		var Soma;

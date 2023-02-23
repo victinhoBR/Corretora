@@ -57,15 +57,15 @@ include_once("../conexao.php")
 					echo "<h1><font color='blue'> Para realizar a alteração preencha o campo abaixo</font><h1>";
 					echo "<p class='raiva'>CONSTA NA NOSSA BASE DE DADOS O CLIENTE: </p><br>";
 
-					echo "<label class='raiva'>Codigo!</label><input type='number' name='codigo' maxlength='3' placeholder='" . $row_cliente['codigo'] . "'><br>";
+					echo "<label class='raiva'>Codigo!</label><input type='number' name='codigo' maxlength='3' require autofocus placeholder='" . $row_cliente['codigo'] . "'><br>";
 
-					echo "<label class='raiva'>Nome!</label><input type='text' name='nome' maxlength='50' placeholder='"  . $row_cliente['nome'] . "'><br>";
+					echo "<label class='raiva'>Nome!</label><input type='text' name='nome' maxlength='50' require autofocus placeholder='"  . $row_cliente['nome'] . "'><br>";
 
-					echo "<label class='raiva'>rg!</label><input type='text' name='rg' maxlength='7' placeholder='" . $row_cliente['rg'] . "'><br>";
+					echo "<label class='raiva'>rg!</label><input type='text' name='rg' maxlength='7' require autofocus placeholder='" . $row_cliente['rg'] . "'><br>";
 
-					echo "<label class='raiva'>CFP!</label> <input type='text' name='cpf' maxlength='12' placeholder='" . $row_cliente['cpf'] . "'><br>";
+					echo "<label class='raiva'>CFP!</label> <input type='text' name='cpf' maxlength='11' require autofocus placeholder='" . $row_cliente['cpf'] . "'><br>";
 
-					echo "<label class='raiva'>Telefone!</label> <input type='text' name='Telefone' maxlength='11' placeholder='" . $row_cliente['Telefone'] . "'><br><br>";
+					echo "<label class='raiva'>Telefone!</label> <input type='text' name='Telefone' maxlength='11' require autofocus placeholder='" . $row_cliente['Telefone'] . "'><br><br>";
 
 					echo "<input type='submit' name='atualiza' valuer='atualiza'>";
 				} else {
